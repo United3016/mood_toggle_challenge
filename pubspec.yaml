@@ -1,0 +1,23 @@
+name: mood_toggle_challenge
+description: A simple Flutter app to learn Provider state management
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/happy.png
+    - assets/sad.png
+    - assets/excited.png
